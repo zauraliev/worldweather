@@ -1,0 +1,133 @@
+body {
+  background: #3f3f3f;
+}
+html,
+body {
+  height: 100%;
+  padding-top: 1%;
+}
+.container,
+.row {
+  height: 100%;
+  min-height: 100%;
+}
+.header {
+  text-align: center;
+}
+.header > h1 {
+  color: white;
+  line-height: 0.7;
+}
+.header > small {
+  color: #61dafb;
+}
+.search-result {
+  background: rgba(0, 0, 0, 0.3);
+  border-radius: 3px;
+  box-shadow: 0 1px 5px rgba(0, 0, 0, 0.25);
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  height: 100%;
+  width: 100%;
+  position: fixed;
+  z-index: 1;
+  padding: 0 10px;
+  color: white;
+  text-align: center;
+}
+.btn-text {
+  font-size: x-large;
+}
+.btn-main {
+  color: #fff;
+  background-color: #61dafb;
+  border-color: #61dafb;
+}
+.btn-main:hover {
+  color: #fff;
+  background-color: #1f91a5;
+  border-color: #1f91a5;
+  box-shadow: 0 0 0 0.2rem #03a9f447;
+}
+.btn-main:not(:disabled):not(.disabled).active,
+.btn-main:not(:disabled):not(.disabled):active,
+.show > .btn-main.dropdown-toggle {
+  color: #fff;
+  background-color: #1f91a5;
+  border-color: #1f91a5;
+}
+.btn-clear {
+  background-color: transparent;
+  color: #fff;
+  border-color: #61dafb;
+}
+.btn-clear:hover {
+  color: #fff;
+  border-color: #1f91a5;
+  box-shadow: 0 0 0 0.2rem #03a9f447;
+}
+.btn-clear:not(:disabled):not(.disabled).active,
+.btn-clear:not(:disabled):not(.disabled):active,
+.show > .btn-clear.dropdown-toggle {
+  color: #fff;
+  border-color: #05889e;
+}
+.arrow {
+  margin-top: 30px;
+  margin-bottom: -10px;
+}
+.polygon {
+  stroke-width: 0;
+  fill: #fff;
+}
+svg {
+  *border: 1px solid #fff;
+  width: 75px;
+  height: 75px;
+}
+.list-group-item {
+  background-color: transparent;
+  padding: 1em 0 0.1em 0;
+}
+.list-group-item:focus,
+.list-group-item:hover {
+  z-index: 0;
+}
+.list-header {
+  color: #61dafb;
+}
+.row-bordered-s,
+.row-bordered-s:after {
+  display: block;
+  border-bottom: 1px solid #ccc;
+  padding: 20px 0 0 0;
+}
+.row-bordered-o,
+.row-bordered-o:after {
+  display: block;
+  border-bottom: 1px outset #ccc;
+  padding: 20px 0 0 0;
+}
+@media (min-width: 528px) and (max-width: 720px) {
+  .row {
+    display: flex;
+  }
+  .col-4 {
+    max-width: 100%;
+  }
+}
+@media (min-width: 328px) and (max-width: 520px) {
+  .row {
+    display: initial;
+  }
+  .col-4 {
+    max-width: 100%;
+  }
+}
+@media (max-width: 320px) {
+  .row {
+    display: initial;
+  }
+  .col-4 {
+    max-width: 100%;
+  }
+}

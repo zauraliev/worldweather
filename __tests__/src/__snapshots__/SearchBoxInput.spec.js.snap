@@ -1,0 +1,12 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SearchBoxInput renders correctly 1`] = `
+<div
+  className="form-group"
+>
+  <input
+    className="form-control"
+    type="text"
+  />
+</div>
+`;

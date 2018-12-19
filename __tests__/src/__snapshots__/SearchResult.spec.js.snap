@@ -1,0 +1,151 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SearchResult renders correctly 1`] = `
+<div
+  className="search-result "
+>
+  <div
+    className="row justify-content-center"
+  >
+    <div
+      className="col-4"
+    >
+      <i
+        className="mt-5 "
+        style={
+          Object {
+            "fontSize": "60px",
+          }
+        }
+      />
+      <div
+        className="arrow "
+      >
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <svg
+            height="100px"
+            viewBox="0 0 150 300"
+            y="20%"
+          >
+            <polygon
+              className="polygon"
+              points="70 25,5 80,10 85,70 30,135 85,140 80"
+            />
+            <polygon
+              className="polygon"
+              points="70 55,10 107.5,12.5 110,70 60,132.5 110,135.5 107.5"
+            />
+          </svg>
+        </svg>
+        <p>
+          Enter a location above to get started
+        </p>
+      </div>
+      <div
+        className="d-none"
+      >
+        <div
+          className="row-bordered-s"
+        >
+          <div
+            className="row"
+          >
+            <div
+              className="col-md-3 text-lg-left"
+            >
+              <label
+                className="font-weight-bold list-header mr-1"
+              >
+                Location
+              </label>
+            </div>
+            <div
+              className="col-md-6 text-lg-left"
+            >
+              <span />
+            </div>
+          </div>
+        </div>
+        <div
+          className="row-bordered-o"
+        >
+          <div
+            className="row"
+          >
+            <div
+              className="col-md-3 text-lg-left"
+            >
+              <label
+                className="font-weight-bold list-header mr-1"
+              >
+                Temperature
+              </label>
+            </div>
+            <div
+              className="col-md-6 text-lg-left"
+            >
+              <span />
+            </div>
+          </div>
+        </div>
+        <div
+          className="row-bordered-s"
+        >
+          <div
+            className="row"
+          >
+            <div
+              className="col-md-3 text-lg-left"
+            >
+              <label
+                className="font-weight-bold list-header mr-1"
+              >
+                Humidity
+              </label>
+            </div>
+            <div
+              className="col-md-6 text-lg-left"
+            >
+              <span />
+            </div>
+          </div>
+        </div>
+        <div
+          className="row-bordered-o"
+        >
+          <div
+            className="row"
+          >
+            <div
+              className="col-md-3 text-lg-left"
+            >
+              <label
+                className="font-weight-bold list-header mr-1"
+              >
+                Conditions
+              </label>
+            </div>
+            <div
+              className="col-md-6 text-lg-left"
+            >
+              <span />
+            </div>
+          </div>
+        </div>
+        <button
+          className="btn btn-clear btn-md btn-block mt-3"
+          onClick={[Function]}
+        >
+          <span
+            className="btn-text"
+          >
+            Clear
+          </span>
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+`;

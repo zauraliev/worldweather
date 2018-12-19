@@ -1,0 +1,52 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SearchBox renders correctly 1`] = `
+<form
+  className="needs-validation "
+  id="weatherForm"
+  noValidate={true}
+  onSubmit={[Function]}
+>
+  <div
+    className="form-group"
+  >
+    <input
+      className="form-control"
+      id="city"
+      name="city"
+      onBlur={[Function]}
+      onChange={[Function]}
+      placeholder="City"
+      required={false}
+      type="text"
+    />
+  </div>
+  <div
+    className="form-group"
+  >
+    <input
+      className="form-control"
+      id="country"
+      name="country"
+      onBlur={[Function]}
+      onChange={[Function]}
+      placeholder="Country"
+      required={false}
+      type="text"
+    />
+  </div>
+  <div
+    className="form-group"
+  >
+    <button
+      className="btn btn-main btn-md btn-block"
+    >
+      <span
+        className="btn-text"
+      >
+        Get Weather
+      </span>
+    </button>
+  </div>
+</form>
+`;
