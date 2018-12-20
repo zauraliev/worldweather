@@ -11,6 +11,7 @@ const SearchBoxInput = props => (
       onChange={props.updateFormInputs}
       onBlur={props.updateFormInputs}
       required={props.errorType}
+      value={props.inputValue}
     />
     {props.errorType ? (
       <div className="invalid-feedback">Please enter {props.placeholder} field</div>

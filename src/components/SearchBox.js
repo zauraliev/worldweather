@@ -89,6 +89,7 @@ class SearchBox extends Component {
           placeholder="City"
           updateFormInputs={this.updateFormInputs}
           errorType={cityError}
+          inputValue={this.props.city}
         />
         <SearchBoxInput
           inputName="country"
@@ -96,6 +97,7 @@ class SearchBox extends Component {
           placeholder="Country"
           updateFormInputs={this.updateFormInputs}
           errorType={countryError}
+          inputValue={this.props.country}
         />
         <div className="form-group">
           <button className="btn btn-main btn-md btn-block">

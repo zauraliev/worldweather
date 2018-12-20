@@ -4,13 +4,6 @@ import ArrowSVG from "./ArrowSVG";
 class SearchResult extends Component {
   clear = e => {
     e.preventDefault();
-
-    const resetForm = id => {
-      //document.getElementById(id).reset();
-    };
-
-    resetForm("weatherForm");
-
     this.props.updateState({
       location: "",
       temperature: "",
